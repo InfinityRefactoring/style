@@ -518,13 +518,6 @@
             <message key="todo.match" value="TodoComment ''{0}'' is an invalid comment, remove it or use a more appropriate description." />
         </module>
 
-        <!-- http://checkstyle.sourceforge.net/config_misc.html#TodoComment -->
-        <module name="TodoComment">
-            <property name="id" value="TodoCommentInfo" />
-            <property name="severity" value="info" />
-            <property name="format" value="(TODO)|(FIXME)" />
-        </module>
-
         <!-- http://checkstyle.sourceforge.net/config_misc.html#TrailingComment -->
         <module name="TrailingComment"/>
 
